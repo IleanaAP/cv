@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <h1>Mis datos de contacto:</h1>
+    <p>Dirección</p>
+    <p>123456789</p>
+    <p>micorreo@email.com</p>
+    <hr>
+    <form action="mailto:contacto@ileana.com" method="post" enctype="text/plain"><!--con enctype especificamos que será puro texto plano -->
+      <label>Tu nombre: </label>
+      <input type="text" name="nombre" value=""><br>
+      <label>Correo electrónico: </label>
+      <input type="email" name="email" value=""><br>
+      <label>Comentario: </label><br>
+      <textarea name="comentario" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
